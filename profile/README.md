@@ -6,7 +6,7 @@
 
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue?style=flat-square)](https://github.com/notetux-plus-plus/notetux-plus-plus/blob/main/LICENSE)
 [![Latest Release](https://img.shields.io/github/v/release/notetux-plus-plus/notetux-plus-plus?style=flat-square&label=release)](https://github.com/notetux-plus-plus/notetux-plus-plus/releases/latest)
-[![Package](https://github.com/notetux-plus-plus/notetux-plus-plus/actions/workflows/package.yml/badge.svg)](https://github.com/notetux-plus-plus/notetux-plus-plus/actions/workflows/package.yml)
+[![Build](https://img.shields.io/github/actions/workflow/status/notetux-plus-plus/notetux-plus-plus/build.yml?style=flat-square&label=build)](https://github.com/notetux-plus-plus/notetux-plus-plus/actions)
 [![Platform](https://img.shields.io/badge/platform-Linux-blue?style=flat-square&logo=linux&logoColor=white)](https://github.com/notetux-plus-plus/notetux-plus-plus)
 [![Language](https://img.shields.io/badge/language-C11-blue?style=flat-square&logo=c&logoColor=white)](https://github.com/notetux-plus-plus/notetux-plus-plus)
 [![GTK](https://img.shields.io/badge/UI-GTK3-4a86c8?style=flat-square)](https://gtk.org)
@@ -48,6 +48,19 @@ packages for every major distribution.
 
 ---
 
+## Repositories
+
+| Repo | Description | Release |
+|------|-------------|---------|
+| [notetux-plus-plus](https://github.com/notetux-plus-plus/notetux-plus-plus) | Main application | [![release](https://img.shields.io/github/v/release/notetux-plus-plus/notetux-plus-plus?style=flat-square&label=latest)](https://github.com/notetux-plus-plus/notetux-plus-plus/releases/latest) |
+| [nppPluginList](https://github.com/notetux-plus-plus/nppPluginList) | Plugin catalogue | — |
+| [hello_world](https://github.com/notetux-plus-plus/hello_world) | HelloPlugin | [![release](https://img.shields.io/github/v/release/notetux-plus-plus/hello_world?style=flat-square&label=latest)](https://github.com/notetux-plus-plus/hello_world/releases/latest) |
+| [npp_ftp](https://github.com/notetux-plus-plus/npp_ftp) | NppFTP | [![release](https://img.shields.io/github/v/release/notetux-plus-plus/npp_ftp?style=flat-square&label=latest)](https://github.com/notetux-plus-plus/npp_ftp/releases/latest) |
+| [compare](https://github.com/notetux-plus-plus/compare) | Compare | [![release](https://img.shields.io/github/v/release/notetux-plus-plus/compare?style=flat-square&label=latest)](https://github.com/notetux-plus-plus/compare/releases/latest) |
+| [json_viewer](https://github.com/notetux-plus-plus/json_viewer) | JSON Viewer | [![release](https://img.shields.io/github/v/release/notetux-plus-plus/json_viewer?style=flat-square&label=latest)](https://github.com/notetux-plus-plus/json_viewer/releases/latest) |
+
+---
+
 ## Plugin ecosystem
 
 The plugin system follows the same ABI as Notepad++ (five mandatory C exports), adapted for
@@ -55,12 +68,12 @@ Linux `.so` files. Plugins are listed in the
 [nppPluginList](https://github.com/notetux-plus-plus/nppPluginList) catalogue and installable
 directly from **Plugins → Plugins Admin**.
 
-| Plugin | Description | Status |
-|--------|-------------|--------|
-| [HelloPlugin](https://github.com/notetux-plus-plus/hello_world) | Minimal reference plugin — starting point for developers | ✅ Released |
-| [NppFTP](https://github.com/notetux-plus-plus/npp_ftp) | Remote file editing over FTP · SFTP · SCP | 🚧 In development |
-| [Compare](https://github.com/notetux-plus-plus/compare) | Side-by-side visual diff with scroll-lock | 🚧 In development |
-| [JSON Viewer](https://github.com/notetux-plus-plus/json_viewer) | Interactive JSON tree · format · minify · validate | 🚧 In development |
+| Plugin | Description | Status | Release |
+|--------|-------------|--------|---------|
+| [HelloPlugin](https://github.com/notetux-plus-plus/hello_world) | Minimal reference plugin — starting point for developers | ✅ Released | [![release](https://img.shields.io/github/v/release/notetux-plus-plus/hello_world?style=flat-square&label=)](https://github.com/notetux-plus-plus/hello_world/releases/latest) |
+| [NppFTP](https://github.com/notetux-plus-plus/npp_ftp) | Remote file editing over FTP · SFTP · SCP | 🚧 In development | — |
+| [Compare](https://github.com/notetux-plus-plus/compare) | Side-by-side visual diff with scroll-lock | 🚧 In development | — |
+| [JSON Viewer](https://github.com/notetux-plus-plus/json_viewer) | Interactive JSON tree · format · minify · validate | 🚧 In development | — |
 
 All plugin `.so` files are compiled on Ubuntu 20.04 (glibc 2.31) and run unchanged on any
 distro that can run Notetux++.
