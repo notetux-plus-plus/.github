@@ -6,7 +6,7 @@
 
 [![License: GPL-3.0](https://img.shields.io/github/license/notetux-plus-plus/notetux-plus-plus?style=flat-square)](https://github.com/notetux-plus-plus/notetux-plus-plus/blob/main/LICENSE)
 [![Latest Release](https://img.shields.io/github/v/release/notetux-plus-plus/notetux-plus-plus?style=flat-square&label=release)](https://github.com/notetux-plus-plus/notetux-plus-plus/releases/latest)
-[![Build](https://img.shields.io/github/actions/workflow/status/notetux-plus-plus/notetux-plus-plus/build.yml?style=flat-square&label=build)](https://github.com/notetux-plus-plus/notetux-plus-plus/actions)
+[![Package](https://github.com/notetux-plus-plus/notetux-plus-plus/actions/workflows/package.yml/badge.svg)](https://github.com/notetux-plus-plus/notetux-plus-plus/actions/workflows/package.yml)
 [![Platform](https://img.shields.io/badge/platform-Linux-blue?style=flat-square&logo=linux&logoColor=white)](https://github.com/notetux-plus-plus/notetux-plus-plus)
 [![Language](https://img.shields.io/badge/language-C11-blue?style=flat-square&logo=c&logoColor=white)](https://github.com/notetux-plus-plus/notetux-plus-plus)
 [![GTK](https://img.shields.io/badge/UI-GTK3-4a86c8?style=flat-square)](https://gtk.org)
